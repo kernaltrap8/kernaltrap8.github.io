@@ -1,0 +1,105 @@
+body
+        {
+            text-align: center;
+            margin: 0;
+            background-color: rgb(0, 0, 0);
+            background: url(../images/channels4_banner.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            color: white;
+           
+        }
+        a:link
+        {
+            color: rgb(126, 70, 156);
+            text-decoration: none
+ 
+        }
+     a:visited
+        {
+            color: rgb(126, 70, 156);
+        }
+     a:hover
+        {
+            color: rgb(255, 255, 255);
+        }
+     a:active
+        {
+            color: purple;
+        }
+
+    .navbar
+        {
+            background-color: rgb(52, 51, 51);
+            overflow: hidden;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            border-radius: 10px;
+            opacity: 90%;
+        }
+    .navbar a 
+        {
+            float: left;
+            display: block;
+            color: rgb(96, 46, 122);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+    .navbar a:hover 
+        {
+            background-color: grey;
+            color: rgb(55, 37, 58);
+            transition: background-color 1s,
+                color 1s
+        }
+    .navbar a.active
+        {
+            color: white;
+        }
+
+h1 
+            {
+              background-color:  rgb(46, 31, 56);
+              opacity: 90%;
+            }
+.colorYellow
+            {
+                color:yellow;
+                opacity: 100%
+            }
+.colorGreen
+            {
+                color:greenyellow
+            }
+.colorAqua
+            {
+                color:aqua;
+            }
+
+
+main
+            {
+              color:rgb(195, 195, 195);  
+              text-align: middle;
+            }
+    .CEX
+            {
+                color:lightskyblue;
+            }
+    .DEX
+            {
+                color:darkred
+            }
+    .henpt1
+            {
+                color:grey;
+            }
+    .henpt2
+            {
+                color:darkgoldenrod;
+            }

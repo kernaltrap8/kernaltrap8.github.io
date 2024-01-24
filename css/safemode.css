@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    background-color: #000000;
+    background-image: url('./images/channels4_banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+
+  }
+  
+  .main-h {
+    font-family: "mata_regular", Arial, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #2d2d2d;
+    border-radius: 10px;
+    opacity: 0.3;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  a:link {
+    color: #7e469c;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #7e469c;
+  }
+  
+  a:hover {
+    color: #ffffff;
+  }
+  
+  a:active {
+    color: purple;
+  }
+  
+  .side-link {
+    color: #2d2d2d;
+  }
+  
+  a.side-link:link {
+    color: #2d2d2d;
+    text-decoration: none;
+  }
+  
+  a.side-link:visited {
+    color: #8a5da3;
+  }
+  
+  a.side-link:hover {
+    color: #e1e1e1;
+  }
+  
+  a.side-link:active {
+    color: purple;
+  }
+  
+  .navbar {
+    background-color: #343334;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0.9;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #7e469c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: gray;
+    color: #372d3a;
+    transition: background-color 1s, color 1s;
+  }
+  
+  .navbar a.active {
+    color: white;
+  }
+  
